@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            background: aqua;
+        }
+        .one{
+            z-index: 2;
+        }
+        .two{
+            z-index: 3;
+        }
+        .red{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        .blue{
+            width: 200px;
+            height: 200px;
+            background:  blue;
+        }
+        .yellow{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        kjahsdfadsf
+    </div>
+    <div class="two">sddfbadf badf</div>
+    <section>
+        <div class="red">Red</div>
+        <div class="blue">Blue
+            <div class="yellow">Yellow</div>
+        </div>
+    </section>
+</body>
+</html>
